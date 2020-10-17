@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body {
+    background-color: #E6E6E6;
+    background-image: url(bgs/worn_dots.png);
+	font-family: 'Abel', sans-serif;
+}
+.jumbotron {
+    background-color: #9999CC;
+    color: #ffffff;
+}
+.bg-light {
+    background-color: #FFFFFF !important;
+}
+.nav-link {
+    color: #22224D !important !important
+    /* [disabled]color: #22224D !important; */
+    color: #3B3B3B !important !important;
+    color: #3B3B3B !important;
+}
+
+.nav-link:hover {
+    color: #6060D5
+!important;
+}
+.navbar-nav .show > .nav-link, .navbar-nav .active > .nav-link, .nav-link.show, .nav-link.active 
+{color: #3B3B3B !important;
+}
+.navbar-brand {
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-shadow: 0px 0px;
+    text-transform: capitalize;
+    /* [disabled]letter-spacing: 1px; */
+    color: v
+!important;
+}
+.display-4 {
+    font-variant: normal;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.lead {
+    /* [disabled]color: #22224D; */
+}
+.col-12.col-sm-6.col-md-4.col-lg-3.mb-4 img {
+    border: 1px dashed #39394D;
+    border-collapse: collapse;
+}
+a {
+    color: #6060D5 !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #39394D !important;
+    text-decoration: none;
+}
+footer {
+    background-color: #BFBFBF;
+}
+.btn-dark {
+    background-color: #22224D;
+}
+.card {
+    background-color: #E6E6E6;
+}
+.card-title {
+    color: #22224D;
+    font-weight: bold;
+}
+.card-text {
+    /* [disabled]color: #39394D; */
+    font-weight: 500;
+}
+
+.bd {
+    border: 1px dashed #39394D;
+}
+
+.card {
+    border-radius: 0;
+    border: 1px dashed #39394D;
+}
